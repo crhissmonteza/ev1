@@ -33,8 +33,10 @@
 
             <button type="submit">Registrar</button>
         </form>
+        <p>Si ya tiene una cuenta, <a href="{{ route('login.form') }}">haga clic aquí</a> para iniciar sesión.</p>
     </div>
 </body>
 </html>
+
 
 
