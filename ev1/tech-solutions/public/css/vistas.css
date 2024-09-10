@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/*
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}  */
+
+ul,
+ol {
+    padding: 0; /* Elimina el padding por defecto */
+    list-style: none; /* Elimina los puntos de lista */
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #3f8df4;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0041cc;
+}
+
+.button-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #218838;
+}
+
+.button-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #f4d03f;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-secondary:hover {
+    background-color: #f1c40f;
+}
+
+/* Estilos para el botón de eliminar */
+.button-warning {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.button-warning:hover {
+    background-color: #c82333; /* Color de fondo al pasar el mouse sobre el botón */
+}
